@@ -11,6 +11,8 @@
 		79E7182F2A8ECADE00F97437 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7182E2A8ECADE00F97437 /* ContentView.swift */; };
 		79E718312A8ECAE400F97437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E718302A8ECAE400F97437 /* Assets.xcassets */; };
 		79E718342A8ECAE400F97437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79E718332A8ECAE400F97437 /* Preview Assets.xcassets */; };
+		79E7183B2A8ECB2400F97437 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7183A2A8ECB2400F97437 /* OrderView.swift */; };
+		79E7183E2A8ECBDD00F97437 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E7183D2A8ECBDD00F97437 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		79E7182E2A8ECADE00F97437 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		79E718302A8ECAE400F97437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79E718332A8ECAE400F97437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79E7183A2A8ECB2400F97437 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		79E7183D2A8ECBDD00F97437 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				79E7182E2A8ECADE00F97437 /* ContentView.swift */,
 				79E718302A8ECAE400F97437 /* Assets.xcassets */,
 				79E718322A8ECAE400F97437 /* Preview Content */,
+				79E7183A2A8ECB2400F97437 /* OrderView.swift */,
+				79E7183D2A8ECBDD00F97437 /* Order.swift */,
 			);
 			path = CupcakesOrder;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E7183B2A8ECB2400F97437 /* OrderView.swift in Sources */,
 				79E7182F2A8ECADE00F97437 /* ContentView.swift in Sources */,
+				79E7183E2A8ECBDD00F97437 /* Order.swift in Sources */,
 				79E7182D2A8ECADE00F97437 /* CupcakesOrderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
